@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "react-style-tag": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +21,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-expand-collapse": "^0.2.0",
+    "react-redux": "^5.0.7",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  }
 }
